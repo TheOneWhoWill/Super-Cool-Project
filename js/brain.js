@@ -1,4 +1,4 @@
-let audio = new Audio("audio/09. Ryu Stage.flac");
+let audio = new Audio("audio/09. Ryu Stage.mp3");
 let canvas = document.getElementById("canvas");
 let backcanvas = document.getElementById("backcanvas");
 let context = canvas.getContext('2d');

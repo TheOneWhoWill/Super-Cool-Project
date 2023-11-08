@@ -79,7 +79,7 @@ class Victory extends Scene {
 
 		audio.addEventListener('ended', () => {
 			audio.pause();
-			audio.src = "audio/09. Ryu Stage.flac";
+			audio.src = "audio/09. Ryu Stage.mp3";
 			currentScene = new Main();
 			audio.play();
 			reset();
